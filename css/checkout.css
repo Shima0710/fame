@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Big Shoulders Text', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    text-decoration:none;
+    list-style: none;
+}
+.title h1
+{
+    font-size: 70px;
+    margin-top: 20px;
+    color: blue;
+    text-align: center;
+    
+}
+.title p{
+    font-size: 70px;
+    margin-top: 20px;
+    color: blue;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+/* Form Styling */
+/* 既存のスタイル */
+/* .checkout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+} */
+
+.checkout-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.checkout-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px; /* 必要に応じて調整 */
+}
+
+.checkout-item img {
+    margin-top: 0px;
+    width: 150px;
+}
+
+.checkout-item h2,
+.checkout-item p {
+    margin-top: 0px;
+    width: 200px;
+    flex-grow: 1;
+}
+.checkout-total {
+    color: brown;
+    font-size: 40px;
+    text-align: center; /* テキストを中央揃え */
+    margin: 0 auto; /* 左右のマージンを自動で調整して中央配置 */
+    max-width: 600px; /* 必要に応じて調整 */
+}
+
+/* 
+.step3 h2
+{
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -440px;
+} */
+.step3 button{
+    margin-top: 0px;
+    margin-left: 550px;
+}
+
+
+
+
+/* Form Styling */
+form {
+    max-width: 1000px;
+    margin: 20px auto; /* 上下左右のマージンを自動で調整して中央配置 */
+    padding: 20px; /* 必要に応じて調整 */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px; /* 必要に応じて調整 */
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+    width: calc(100% - 160px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.oshiharai label {
+    margin-top: 20px; /* 必要に応じて調整 */
+}
+
+
+
+
